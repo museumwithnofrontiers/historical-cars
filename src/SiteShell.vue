@@ -19,12 +19,12 @@ const { t } = useI18n()
   <SiteShell
     v-bind="$attrs"
     header-home="#/"
-    :footer-text="t('__SITE_NAMESPACE__.identity.copyright')"
+    :footer-text="t('historicalCars.identity.copyright')"
   >
     <template #brand>
       <span class="site-logo">
-        <span class="site-logo-org">{{ t('__SITE_NAMESPACE__.identity.organisation') }}</span>
-        <span class="site-logo-title">{{ t('__SITE_NAMESPACE__.identity.title') }}</span>
+        <span class="site-logo-org">{{ t('historicalCars.identity.organisation') }}</span>
+        <span class="site-logo-title">{{ t('historicalCars.identity.title') }}</span>
       </span>
     </template>
     <slot />
